@@ -8,7 +8,7 @@ import ImageResults from "../image-results/ImageResults";
 class Search extends Component {
   state = {
     searchText: "",
-    amount: 5,
+    amount: 15,
     apiUrl: "https://pixabay.com/api",
     apiKey: "9753474-0a37da20a1f26d05ed658c250",
     images: []
